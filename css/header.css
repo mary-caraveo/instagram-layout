@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.container-menu .menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.logo img {
+  width: 35%;
+}
+
+.input-search input {
+  display: flex;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  color: #a5a7aa;
+  width: 215px;
+  height: 28px;
+  outline: none;
+}
