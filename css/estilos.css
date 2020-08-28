@@ -3,11 +3,31 @@
   font-family: Arial;
 }
 
+.header {
+  display: flex;
+  background-color: black;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.container .menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
 .post-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(100px, 293px));
   justify-content: center;
-  gap: 28px;
+  gap: 20px;
 }
 
 .post {
@@ -23,6 +43,7 @@
 .post-image img {
   width: 100%;
   vertical-align: top;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .post-overlay {
@@ -50,6 +71,10 @@
   font-weight: bold;
   text-align: center;
   display: inline-block;
+}
+
+.post-list .post-likes img {
+  color: red;
 }
 
 @media screen and (max-width: 768px) {
