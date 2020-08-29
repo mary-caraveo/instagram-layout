@@ -1,0 +1,23 @@
+.stories {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  margin: 0 10% 0 10%;
+}
+
+.container-stories {
+  display: inherit;
+  margin-left: 5vh;
+}
+
+.list-stories {
+  display: inherit;
+  list-style: none;
+}
+
+.list-stories img {
+  border-radius: 50%;
+  border: 3px solid #ece7e7;
+  padding: 3px;
+  width: 25%;
+}
