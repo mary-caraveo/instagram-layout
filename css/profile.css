@@ -1,12 +1,18 @@
+.home-profile {
+  width: 992px;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+
 .container-home {
   display: grid;
-  grid-template-columns: 18% repeat(3, 1fr) 18%;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 18%) 1fr;
   padding-top: 20px;
 }
 
 .image-profile {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: span 3;
   padding-bottom: 25px;
 }
@@ -18,7 +24,7 @@
 }
 
 .name_profile {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: span 1;
 }
 
@@ -28,7 +34,7 @@
 }
 
 .edition_profile {
-  grid-column: 4 / 5;
+  grid-column: 3 / 4;
   grid-row: span 1;
 }
 
@@ -51,7 +57,7 @@
 }
 
 .details {
-  grid-column: 3 / 5;
+  grid-column: 2 / 4;
   grid-row: 2;
 }
 .details a {
@@ -62,7 +68,7 @@
 }
 
 .details_profile {
-  grid-column: 3 / 5;
+  grid-column: 2 / 4;
   grid-row: 3;
 }
 
@@ -76,7 +82,7 @@
 }
 
 .container-stories {
-  grid-column: 2 / 6;
+  grid-column: 1 / 5;
   grid-row: 4;
   padding-top: 30px;
 }
