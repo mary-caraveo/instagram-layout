@@ -27,6 +27,12 @@
 .menu-inferior a {
   color: #c9c9c9;
   text-decoration: none;
-  padding: 0 30px;
+  padding-right: 50px;
   font-size: small;
+}
+
+.menu-inferior img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
 }
