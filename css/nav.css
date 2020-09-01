@@ -25,7 +25,7 @@
 }
 
 .menu-inferior a {
-  color: #c9c9c9;
+  color: gray;
   text-decoration: none;
   padding-right: 50px;
   font-size: small;
@@ -35,4 +35,9 @@
   width: 16px;
   height: 16px;
   padding-right: 5px;
+}
+
+.menu-inferior a:hover {
+  color: black;
+  transition: all 0.2s ease;
 }

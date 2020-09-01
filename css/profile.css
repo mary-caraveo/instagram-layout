@@ -8,7 +8,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 18%) 1fr 10%;
-  padding-top: 20px;
+  padding: 20px 0 30px 0;
+}
+
+.container-home img:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
 }
 
 .image-profile {
@@ -20,6 +25,7 @@
   border: 3px solid #ece7e7;
   padding: 3px;
   width: 50%;
+  cursor: pointer;
 }
 
 .name_profile {
@@ -30,19 +36,25 @@
 
 .name_profile p {
   font-size: 24px;
-  margin-right: 45px;
+  margin-right: 40px;
   color: grey;
 }
 
 .edition {
   text-decoration: none;
-  padding: 6px 15px;
+  padding: 8px 15px;
   border-radius: 6px;
   color: gray;
   border: 1px solid gainsboro;
   font-size: 12px;
-  height: 20px;
-  width: 65px;
+  height: 16px;
+  width: 70px;
+  text-align: center;
+}
+
+.edition:hover {
+  box-shadow: 0 4px 16px rgb(202, 203, 204);
+  transition: all 0.2s ease;
 }
 
 .options_profile {
@@ -54,11 +66,17 @@
   grid-column: 2 / 4;
   grid-row: 2;
 }
+
 .details a {
   padding-right: 25px;
   font-size: 16px;
   text-decoration: none;
   color: gray;
+}
+
+.details a:hover {
+  color: black;
+  transition: all 0.2s ease;
 }
 
 .details_profile {
@@ -78,7 +96,8 @@
 .container-stories {
   grid-column: 1 / 5;
   grid-row: 4;
-  padding-top: 30px;
+  padding-top: 45px;
+  cursor: pointer;
 }
 
 .container-stories img {

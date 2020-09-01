@@ -9,6 +9,10 @@
   box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
 }
 
+.header img:hover {
+  transform: scale(1.1);
+}
+
 .container {
   display: inherit;
   align-items: inherit;
@@ -45,4 +49,10 @@
   height: 28px;
   outline: none;
   text-align: center;
+}
+
+.input-search input:focus {
+  background-color: white;
+  border: 2px solid rgb(223, 224, 224);
+  transition: all 0.2s ease;
 }
