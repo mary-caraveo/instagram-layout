@@ -27,7 +27,7 @@
 .menu-inferior a {
   color: gray;
   text-decoration: none;
-  padding-right: 50px;
+  margin-right: 50px;
   font-size: small;
 }
 
@@ -38,6 +38,8 @@
 }
 
 .menu-inferior a:hover {
-  color: black;
+  border-top: 1px solid black;
+  filter: brightness(0.25);
   transition: all 0.2s ease;
+  padding-top: 22px;
 }
