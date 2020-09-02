@@ -37,16 +37,16 @@
 .name_profile p {
   font-size: 24px;
   margin-right: 20px;
-  color: grey;
+  color: #3d3636;
 }
 
 .edition {
   text-decoration: none;
   padding: 8px 15px;
   border-radius: 6px;
-  color: gray;
+  color: #3d3636;
   border: 1px solid gainsboro;
-  font-size: 12px;
+  font-size: 13px;
   height: 16px;
   width: 70px;
   text-align: center;
@@ -71,11 +71,11 @@
   padding-right: 25px;
   font-size: 16px;
   text-decoration: none;
-  color: gray;
+  color: #3d3636;
 }
 
 .details a:hover {
-  color: black;
+  color: #3d3636;
   transition: all 0.2s ease;
 }
 
@@ -85,12 +85,12 @@
 }
 
 .details_profile h4 {
-  color: gray;
+  color: #3d3636;
 }
 
 .details_profile p {
   padding-top: 10px;
-  color: gray;
+  color: #3d3636;
 }
 
 .container-stories {
@@ -105,7 +105,7 @@
   border: 3px solid #ece7e7;
   padding: 3px;
   margin-right: 25px;
-  width: 6%;
+  width: 8%;
 }
 
 .details_stories {
@@ -116,8 +116,8 @@
 .details_stories p {
   display: inline-block;
   font-size: 14px;
-  padding-right: 35px;
-  color: gray;
+  padding: 0 38px 0 10px;
+  color: #3d3636;
   font-weight: bolder;
   text-align: center;
 }

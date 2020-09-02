@@ -71,33 +71,6 @@ body {
   position: relative;
 }
 
-.modal-contenido a {
-  display: flex;
-  background-color: rgb(241, 9, 9);
-  justify-content: center;
-  align-items: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 50px;
-  color: black;
-  text-decoration: none;
-}
-
-.modal {
-  background-color: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-}
-#miModal:target {
-  opacity: 1;
-  pointer-events: auto;
-}
-
 @media screen and (max-width: 768px) {
   .post-list {
     gap: 3px;
