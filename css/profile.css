@@ -75,7 +75,9 @@
 }
 
 .details a:hover {
-  color: #3d3636;
+  color: gray;
+  filter: brightness(0.25);
+
   transition: all 0.2s ease;
 }
 
