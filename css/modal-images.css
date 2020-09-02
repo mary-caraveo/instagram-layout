@@ -1,12 +1,3 @@
-.modal-contenido a {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  color: white;
-  text-decoration: none;
-  font-size: 24px;
-}
-
 .modal {
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
@@ -18,7 +9,89 @@
   pointer-events: none;
 }
 
+.modal-contenido {
+  width: 30%;
+  height: 50%;
+  margin: 15% auto;
+  position: relative;
+}
+
+.modal-contenido a {
+  display: flex;
+  text-align: center;
+  color: white;
+  padding: 5px 5px 5px 10px;
+  text-decoration: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-contenido img {
+  width: 100%;
+}
+
+.modal-contenido a:hover {
+  background-color: salmon;
+  width: 25px;
+  color: black;
+}
+
 #miModal:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal2:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal3:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal4:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal5:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal6:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal7:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal8:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal9:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal10:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal11:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#miModal12:target {
   opacity: 1;
   pointer-events: auto;
 }

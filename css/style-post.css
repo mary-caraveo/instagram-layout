@@ -61,16 +61,6 @@ body {
   color: red;
 }
 
-.modal-contenido {
-  background-image: url(../assets/images/item8.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 50%;
-  height: 50%;
-  margin: 20% auto;
-  position: relative;
-}
-
 @media screen and (max-width: 768px) {
   .post-list {
     gap: 3px;

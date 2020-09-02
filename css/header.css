@@ -16,6 +16,7 @@
   display: inherit;
   align-items: inherit;
   justify-content: inherit;
+  max-width: 992px;
 }
 
 .container-menu .menu {
