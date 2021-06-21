@@ -1,8 +1,8 @@
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   height: 54px;
   align-items: center;
-  justify-content: space-evenly;
   border-bottom: 1px solid #dbdbdb;
   background-color: white;
   box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
@@ -12,20 +12,18 @@
   transform: scale(1.1);
 }
 
-.container {
-  display: inherit;
-  align-items: inherit;
-  justify-content: inherit;
-  max-width: 992px;
-}
-
-.container-menu .menu {
-  list-style: none;
-  padding-inline-start: 0;
+.logo {
+  display: grid;
+  justify-items: flex-end;
+  grid-column: 1;
+  margin-right: 40px;
 }
 
 .menu {
   display: flex;
+  list-style: none;
+  padding-inline-start: 0;
+  grid-column: 3;
 }
 
 .menu a {
@@ -35,12 +33,12 @@
 }
 
 .input-search {
-  padding-left: 40%;
-  padding-right: 20%;
+  display: grid;
+  justify-items: center;
+  grid-column: 2;
 }
 
 .input-search input {
-  display: flex;
   background-color: #fafafa;
   border: 1px solid #dbdbdb;
   border-radius: 5px;
