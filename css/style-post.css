@@ -9,7 +9,7 @@ body {
 
 .post-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(100px, 293px));
+  grid-template-columns: repeat(3, minmax(100px, 330px));
   justify-content: center;
   gap: 20px;
 }
@@ -61,8 +61,15 @@ body {
   color: red;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .post-list {
     gap: 3px;
+    margin: 0 25px;
   }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.post-list {
+  grid-template-columns: repeat(3, minmax(100px, 300px));
+}
 }

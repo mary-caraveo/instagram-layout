@@ -14,16 +14,15 @@
 
 .logo {
   display: grid;
-  justify-items: flex-end;
+  justify-items: center;
   grid-column: 1;
-  margin-right: 40px;
+  margin-left: 35%;
 }
 
 .menu {
   display: flex;
   list-style: none;
   padding-inline-start: 0;
-  grid-column: 3;
 }
 
 .menu a {
