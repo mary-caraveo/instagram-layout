@@ -100,6 +100,10 @@
     margin: 10px 0 10px 0;
   }
 
+  .menu-inferior img:hover {
+    transform: scale(1.1);
+  }
+
   .menu-inferior img {
     width: 25px;
     height: 25px;
@@ -129,6 +133,11 @@
   .edition {
     width: 100%;
     margin: 0 25px 0 0;
+  }
+
+  .modal-content {
+    width: 90%;
+    margin: 50% auto;
   }
 }
 
@@ -193,6 +202,11 @@
   .details_stories p {
     padding: 0 50px 0 20px;
   }
+
+  .modal-content {
+    width: 90%;
+    margin: 30% auto;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -234,5 +248,10 @@
 
   .details_stories p {
     padding: 0 80px 0 20px;
+  }
+
+  .modal-content {
+    width: 70%;
+    margin: 10% auto;
   }
 }
