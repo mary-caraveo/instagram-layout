@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 18%) 1fr 10%;
-  margin-left: 100px;
+  margin-left: 60px;
 }
 
 .container-home img:hover {
@@ -19,6 +19,7 @@
 .image-profile {
   grid-column: 1;
   grid-row: span 3;
+  padding-left: 15px;
 }
 
 .image-profile img {

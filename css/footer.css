@@ -6,6 +6,7 @@
 .footer_links {
   font-size: 12px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .footer_links a {
@@ -18,4 +19,5 @@
 .footer_text p {
   font-size: 12px;
   color: gray;
+  text-align: center;
 }
