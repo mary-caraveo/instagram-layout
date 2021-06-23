@@ -1,0 +1,23 @@
+.footer_container {
+  max-width: 992px;
+  margin: 30px auto;
+}
+
+.footer_links {
+  font-size: 12px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.footer_links a {
+  text-decoration: none;
+  color: #00376b;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.footer_text p {
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}

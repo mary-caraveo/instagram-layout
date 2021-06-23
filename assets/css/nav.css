@@ -1,0 +1,45 @@
+.submenu_inferior {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.nav-inferior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-inferior {
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  margin-top: 20px;
+  border-top: 1px solid #c9c9c9;
+  width: 92%;
+}
+
+.menu-inferior {
+  display: flex;
+  list-style: none;
+  margin: 20px 0 20px 0;
+}
+
+.menu-inferior a {
+  color: gray;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: small;
+}
+
+.menu-inferior img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+.menu-inferior a:hover {
+  border-top: 1px solid black;
+  filter: brightness(0.25);
+  transition: all 0.2s ease;
+  padding-top: 22px;
+}
